@@ -1,0 +1,4 @@
+Npgsql.EntityFrameworkCore.PostegreSQL
+Npgsql.EntityFrameworkCore.PostegreSQL.Design
+
+Microsoft.EntityFrameworkCore
