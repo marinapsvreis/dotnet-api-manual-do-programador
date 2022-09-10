@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "4zB4m9qCfvcL+eLx8j2Thg/St2yIk9rhWlYOfU7EQkO/7BXvItlnonT0UALQfR4nUh2m953EhiBxJJeDkBFDTQ==",
+  "dgSpecHash": "Bb9+bnG1d7mzEIIWN2u625T/KvdTxojdiT3RSH+Nb/sqQ/1WLAlxc5XT1dvyoBijagVvKN8CzxgPqGlRsGGmjw==",
   "success": true,
   "projectFilePath": "C:\\Users\\mahpo\\Documents\\Programacao\\CSharp\\API-Manual-do-Programador\\MP.ApiDotNet6\\MP.ApiDotNet6.Api\\MP.ApiDotNet6.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mahpo\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
+    "C:\\Users\\mahpo\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\11.0.0\\automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
     "C:\\Users\\mahpo\\.nuget\\packages\\fluentvalidation\\11.2.1\\fluentvalidation.11.2.1.nupkg.sha512",
     "C:\\Users\\mahpo\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\mahpo\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.8\\microsoft.entityframeworkcore.6.0.8.nupkg.sha512",

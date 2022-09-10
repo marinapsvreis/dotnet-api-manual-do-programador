@@ -6,6 +6,7 @@ Microsoft.EntityFrameworkCore
 FluentValidation
 
 AutoMapper
+AutoMapper.Extensions.Microsoft.DependencyInjection
 
 
 

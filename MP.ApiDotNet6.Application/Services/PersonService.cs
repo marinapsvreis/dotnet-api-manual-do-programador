@@ -35,6 +35,7 @@ namespace MP.ApiDotNet6.Application.Services
 
             var person = _mapper.Map<Person>(personDTO);
             var data = await _personRepository.CreateAsync(person);
+
             return ResultService.Ok<PersonDTO>(_mapper.Map<PersonDTO>(data));
         }
     }

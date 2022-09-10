@@ -17,9 +17,9 @@ namespace MP.ApiDotNet6.Infra.Data.Maps
 
             builder.HasKey(x => x.Id);
 
-            builder.Property(x => x.Id).HasColumnName("IdProduto").UseIdentityColumn();
+            builder.Property(x => x.Id).HasColumnName("Idproduto").UseIdentityColumn();
 
-            builder.Property(x => x.CodErp).HasColumnName("CodeErp");
+            builder.Property(x => x.CodErp).HasColumnName("Codeerp");
 
             builder.Property(x => x.Name).HasColumnName("Nome");
 
