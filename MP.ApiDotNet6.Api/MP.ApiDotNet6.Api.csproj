@@ -7,7 +7,12 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="FluentValidation" Version="11.2.1" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MP.ApiDotNet6.Infra.IoC\MP.ApiDotNet6.Infra.IoC.csproj" />
   </ItemGroup>
 
 </Project>

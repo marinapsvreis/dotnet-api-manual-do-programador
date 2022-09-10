@@ -20,7 +20,7 @@ namespace MP.ApiDotNet6.Domain.Entities
 
         public Purchase(int productId, int personId)
         {
-            Validation(productId, personId,);  
+            Validation(productId, personId);  
         }
 
         public Purchase(int id, int productId, int personId)

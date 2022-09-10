@@ -6,4 +6,15 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="11.0.0" />
+    <PackageReference Include="FluentValidation" Version="11.2.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MP.ApiDotNet6.Application\MP.ApiDotNet6.Application.csproj" />
+    <ProjectReference Include="..\MP.ApiDotNet6.Domain\MP.ApiDotNet6.Domain.csproj" />
+    <ProjectReference Include="..\MP.ApiDotNet6.Infra.Data\MP.ApiDotNet6.Infra.Data.csproj" />
+  </ItemGroup>
+
 </Project>

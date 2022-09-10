@@ -1,0 +1,15 @@
+C:\Users\mahpo\Documents\Programacao\CSharp\API-Manual-do-Programador\MP.ApiDotNet6\MP.ApiDotNet6.Application\bin\Debug\net6.0\MP.ApiDotNet6.Application.deps.json
+C:\Users\mahpo\Documents\Programacao\CSharp\API-Manual-do-Programador\MP.ApiDotNet6\MP.ApiDotNet6.Application\bin\Debug\net6.0\MP.ApiDotNet6.Application.dll
+C:\Users\mahpo\Documents\Programacao\CSharp\API-Manual-do-Programador\MP.ApiDotNet6\MP.ApiDotNet6.Application\bin\Debug\net6.0\MP.ApiDotNet6.Application.pdb
+C:\Users\mahpo\Documents\Programacao\CSharp\API-Manual-do-Programador\MP.ApiDotNet6\MP.ApiDotNet6.Application\bin\Debug\net6.0\MP.ApiDotNet6.Domain.dll
+C:\Users\mahpo\Documents\Programacao\CSharp\API-Manual-do-Programador\MP.ApiDotNet6\MP.ApiDotNet6.Application\bin\Debug\net6.0\MP.ApiDotNet6.Domain.pdb
+C:\Users\mahpo\Documents\Programacao\CSharp\API-Manual-do-Programador\MP.ApiDotNet6\MP.ApiDotNet6.Application\obj\Debug\net6.0\MP.ApiDotNet6.Application.csproj.AssemblyReference.cache
+C:\Users\mahpo\Documents\Programacao\CSharp\API-Manual-do-Programador\MP.ApiDotNet6\MP.ApiDotNet6.Application\obj\Debug\net6.0\MP.ApiDotNet6.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mahpo\Documents\Programacao\CSharp\API-Manual-do-Programador\MP.ApiDotNet6\MP.ApiDotNet6.Application\obj\Debug\net6.0\MP.ApiDotNet6.Application.AssemblyInfoInputs.cache
+C:\Users\mahpo\Documents\Programacao\CSharp\API-Manual-do-Programador\MP.ApiDotNet6\MP.ApiDotNet6.Application\obj\Debug\net6.0\MP.ApiDotNet6.Application.AssemblyInfo.cs
+C:\Users\mahpo\Documents\Programacao\CSharp\API-Manual-do-Programador\MP.ApiDotNet6\MP.ApiDotNet6.Application\obj\Debug\net6.0\MP.ApiDotNet6.Application.csproj.CoreCompileInputs.cache
+C:\Users\mahpo\Documents\Programacao\CSharp\API-Manual-do-Programador\MP.ApiDotNet6\MP.ApiDotNet6.Application\obj\Debug\net6.0\MP.ApiDotNet6.Application.csproj.CopyComplete
+C:\Users\mahpo\Documents\Programacao\CSharp\API-Manual-do-Programador\MP.ApiDotNet6\MP.ApiDotNet6.Application\obj\Debug\net6.0\MP.ApiDotNet6.Application.dll
+C:\Users\mahpo\Documents\Programacao\CSharp\API-Manual-do-Programador\MP.ApiDotNet6\MP.ApiDotNet6.Application\obj\Debug\net6.0\refint\MP.ApiDotNet6.Application.dll
+C:\Users\mahpo\Documents\Programacao\CSharp\API-Manual-do-Programador\MP.ApiDotNet6\MP.ApiDotNet6.Application\obj\Debug\net6.0\MP.ApiDotNet6.Application.pdb
+C:\Users\mahpo\Documents\Programacao\CSharp\API-Manual-do-Programador\MP.ApiDotNet6\MP.ApiDotNet6.Application\obj\Debug\net6.0\ref\MP.ApiDotNet6.Application.dll

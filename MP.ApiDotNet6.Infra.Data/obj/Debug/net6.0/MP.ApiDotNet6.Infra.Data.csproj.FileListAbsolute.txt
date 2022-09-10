@@ -1,0 +1,15 @@
+C:\Users\mahpo\Documents\Programacao\CSharp\API-Manual-do-Programador\MP.ApiDotNet6\MP.ApiDotNet6.Infra.Data\bin\Debug\net6.0\MP.ApiDotNet6.Infra.Data.deps.json
+C:\Users\mahpo\Documents\Programacao\CSharp\API-Manual-do-Programador\MP.ApiDotNet6\MP.ApiDotNet6.Infra.Data\bin\Debug\net6.0\MP.ApiDotNet6.Infra.Data.dll
+C:\Users\mahpo\Documents\Programacao\CSharp\API-Manual-do-Programador\MP.ApiDotNet6\MP.ApiDotNet6.Infra.Data\bin\Debug\net6.0\MP.ApiDotNet6.Infra.Data.pdb
+C:\Users\mahpo\Documents\Programacao\CSharp\API-Manual-do-Programador\MP.ApiDotNet6\MP.ApiDotNet6.Infra.Data\bin\Debug\net6.0\MP.ApiDotNet6.Domain.dll
+C:\Users\mahpo\Documents\Programacao\CSharp\API-Manual-do-Programador\MP.ApiDotNet6\MP.ApiDotNet6.Infra.Data\bin\Debug\net6.0\MP.ApiDotNet6.Domain.pdb
+C:\Users\mahpo\Documents\Programacao\CSharp\API-Manual-do-Programador\MP.ApiDotNet6\MP.ApiDotNet6.Infra.Data\obj\Debug\net6.0\MP.ApiDotNet6.Infra.Data.csproj.AssemblyReference.cache
+C:\Users\mahpo\Documents\Programacao\CSharp\API-Manual-do-Programador\MP.ApiDotNet6\MP.ApiDotNet6.Infra.Data\obj\Debug\net6.0\MP.ApiDotNet6.Infra.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mahpo\Documents\Programacao\CSharp\API-Manual-do-Programador\MP.ApiDotNet6\MP.ApiDotNet6.Infra.Data\obj\Debug\net6.0\MP.ApiDotNet6.Infra.Data.AssemblyInfoInputs.cache
+C:\Users\mahpo\Documents\Programacao\CSharp\API-Manual-do-Programador\MP.ApiDotNet6\MP.ApiDotNet6.Infra.Data\obj\Debug\net6.0\MP.ApiDotNet6.Infra.Data.AssemblyInfo.cs
+C:\Users\mahpo\Documents\Programacao\CSharp\API-Manual-do-Programador\MP.ApiDotNet6\MP.ApiDotNet6.Infra.Data\obj\Debug\net6.0\MP.ApiDotNet6.Infra.Data.csproj.CoreCompileInputs.cache
+C:\Users\mahpo\Documents\Programacao\CSharp\API-Manual-do-Programador\MP.ApiDotNet6\MP.ApiDotNet6.Infra.Data\obj\Debug\net6.0\MP.ApiDotNet6.Infra.Data.csproj.CopyComplete
+C:\Users\mahpo\Documents\Programacao\CSharp\API-Manual-do-Programador\MP.ApiDotNet6\MP.ApiDotNet6.Infra.Data\obj\Debug\net6.0\MP.ApiDotNet6.Infra.Data.dll
+C:\Users\mahpo\Documents\Programacao\CSharp\API-Manual-do-Programador\MP.ApiDotNet6\MP.ApiDotNet6.Infra.Data\obj\Debug\net6.0\refint\MP.ApiDotNet6.Infra.Data.dll
+C:\Users\mahpo\Documents\Programacao\CSharp\API-Manual-do-Programador\MP.ApiDotNet6\MP.ApiDotNet6.Infra.Data\obj\Debug\net6.0\MP.ApiDotNet6.Infra.Data.pdb
+C:\Users\mahpo\Documents\Programacao\CSharp\API-Manual-do-Programador\MP.ApiDotNet6\MP.ApiDotNet6.Infra.Data\obj\Debug\net6.0\ref\MP.ApiDotNet6.Infra.Data.dll
