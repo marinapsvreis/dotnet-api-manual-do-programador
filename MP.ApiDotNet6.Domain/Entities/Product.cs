@@ -14,6 +14,7 @@ namespace MP.ApiDotNet6.Domain.Entities
         public string Name { get; private set; }
         public string CodErp { get; private set; }
         public decimal Price { get; private set; }
+        public ICollection<Purchase> Purchases { get; private set; }
 
         public Product(string name, string codErp, decimal price)
         {

@@ -17,13 +17,13 @@ namespace MP.ApiDotNet6.Infra.Data.Maps
 
             builder.HasKey(x => x.Id);
 
-            builder.Property(x => x.Id).HasColumnName("IDPESSOA").UseIdentityColumn();
+            builder.Property(x => x.Id).HasColumnName("IdPessoa").UseIdentityColumn();
 
-            builder.Property(x => x.Name).HasColumnName("NOME");
+            builder.Property(x => x.Name).HasColumnName("Nome");
 
-            builder.Property(x => x.Document).HasColumnName("DOCUMENTO");
+            builder.Property(x => x.Document).HasColumnName("Documento");
 
-            builder.Property(x => x.Phone).HasColumnName("CELULAR");
+            builder.Property(x => x.Phone).HasColumnName("Celular");
 
             builder.HasMany(x => x.Purchases).WithOne(p => p.Person).HasForeignKey(x => x.PersonId);
         }
