@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "o8hj9gcmTFH4P5T+R6Durr64sKr/meTgOoLBJxhUbkzGEToXD+R6CF4fqpPqc8Cy05fDXWE9AAz3BLcsiuTCfA==",
+  "dgSpecHash": "j5MPT6DExeZZDShhZA7P7QYNWg9xu6gfibtfyrjpXce1O5NWcNfOaDTZFOCc461nPdgrhp3kOfYCv1fJnmObWQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\mahpo\\Documents\\Programacao\\CSharp\\API-Manual-do-Programador\\MP.ApiDotNet6\\MP.ApiDotNet6.Application\\MP.ApiDotNet6.Application.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\mahpo\\.nuget\\packages\\fluentvalidation\\11.2.1\\fluentvalidation.11.2.1.nupkg.sha512"
+  ],
   "logs": []
 }

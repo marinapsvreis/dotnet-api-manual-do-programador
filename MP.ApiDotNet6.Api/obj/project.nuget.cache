@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "12lst8/uzaat7FHIrPF07DL3Yv791yhaXr6ebz3tnDuXaWDRJ62qWMgvZonnjQGqLApvHDSlBpxRIIS3xMqm+Q==",
+  "dgSpecHash": "rwzS4HoBZLoPqk/P7aPXbKy77iM/BLYyokomV3r3jt8ce4A/XHbvBJieK2rTrmlibPyVTj0rP1rA6XCeWaKwZw==",
   "success": true,
   "projectFilePath": "C:\\Users\\mahpo\\Documents\\Programacao\\CSharp\\API-Manual-do-Programador\\MP.ApiDotNet6\\MP.ApiDotNet6.Api\\MP.ApiDotNet6.Api.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\mahpo\\.nuget\\packages\\fluentvalidation\\11.2.1\\fluentvalidation.11.2.1.nupkg.sha512",
     "C:\\Users\\mahpo\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.8\\microsoft.entityframeworkcore.6.0.8.nupkg.sha512",
     "C:\\Users\\mahpo\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\6.0.8\\microsoft.entityframeworkcore.abstractions.6.0.8.nupkg.sha512",
     "C:\\Users\\mahpo\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\6.0.8\\microsoft.entityframeworkcore.analyzers.6.0.8.nupkg.sha512",
