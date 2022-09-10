@@ -29,7 +29,7 @@ namespace MP.ApiDotNet6.Infra.Data.Maps
             builder.HasOne(x => x.Person).WithMany(x => x.Purchases);
 
             //Relacionamento N compras para um Produto 
-            builder.HasOne(x => x.Product).WithMany(x => x.Purchases);          
+            builder.HasOne(x => x.Product).WithMany(x => x.Purchases);     
           
         }
     }
