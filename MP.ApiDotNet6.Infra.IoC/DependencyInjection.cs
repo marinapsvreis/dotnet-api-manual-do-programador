@@ -23,6 +23,7 @@ namespace MP.ApiDotNet6.Infra.IoC
                 options.UseNpgsql(configuration.GetConnectionString("DefaultConnection")));
 
             services.AddScoped<IPersonRepository, PersonRepository>();
+            services.AddScoped<IProductRepository, ProductRepository>();
             return services;
         }
 
@@ -30,6 +31,7 @@ namespace MP.ApiDotNet6.Infra.IoC
         {
             services.AddAutoMapper(typeof(DomainToDTOMapping));
             services.AddScoped<IPersonService, PersonService>();
+            services.AddScoped<IProductService, ProductService>();
             return services;
         }
     }
