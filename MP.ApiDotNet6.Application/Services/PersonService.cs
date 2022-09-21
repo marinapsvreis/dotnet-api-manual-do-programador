@@ -3,6 +3,7 @@ using MP.ApiDotNet6.Application.DTOs;
 using MP.ApiDotNet6.Application.DTOs.Validations;
 using MP.ApiDotNet6.Application.Services.Interfaces;
 using MP.ApiDotNet6.Domain.Entities;
+using MP.ApiDotNet6.Domain.FiltersDb;
 using MP.ApiDotNet6.Domain.Repositories;
 using System;
 using System.Collections.Generic;
@@ -19,70 +20,78 @@ namespace MP.ApiDotNet6.Application.Services
 
     public PersonService(IPersonRepository personRepository, IMapper mapper)
     {
-      _personRepository = personRepository;
-      _mapper = mapper;
+        _personRepository = personRepository;
+        _mapper = mapper;
     }
 
     public async Task<ResultService<PersonDTO>> CreateAsync(PersonDTO personDTO)
     {
-      if (personDTO == null)
+        if (personDTO == null)
         return ResultService.Fail<PersonDTO>("Objeto deve ser informado");
 
-      var result = new PersonDTOValidator().Validate(personDTO);
+        var result = new PersonDTOValidator().Validate(personDTO);
 
-      if (!result.IsValid)
+        if (!result.IsValid)
         return ResultService.RequestError<PersonDTO>("Problemas de validação", result);
 
-      var person = _mapper.Map<Person>(personDTO);
-      var data = await _personRepository.CreateAsync(person);
+        var person = _mapper.Map<Person>(personDTO);
+        var data = await _personRepository.CreateAsync(person);
 
-      return ResultService.Ok<PersonDTO>(_mapper.Map<PersonDTO>(data));
+        return ResultService.Ok<PersonDTO>(_mapper.Map<PersonDTO>(data));
     }
 
     public async Task<ResultService> DeleteAsync(int id)
     {
-      var person = await _personRepository.GetByIdAsync(id);
-      if (person == null)
+        var person = await _personRepository.GetByIdAsync(id);
+        if (person == null)
         return ResultService.Fail("Pessoa não encontrada");
 
-      await _personRepository.DeleteAsync(person);
-      return ResultService.Ok($"Pessoa do id:{id} foi deletada");
+        await _personRepository.DeleteAsync(person);
+        return ResultService.Ok($"Pessoa do id:{id} foi deletada");
     }
 
     public async Task<ResultService<ICollection<PersonDTO>>> GetAsync()
     {
-      var people = await _personRepository.GetPeopleAsync();
-      return ResultService.Ok<ICollection<PersonDTO>>(_mapper.Map<ICollection<PersonDTO>>(people));
+        var people = await _personRepository.GetPeopleAsync();
+        return ResultService.Ok<ICollection<PersonDTO>>(_mapper.Map<ICollection<PersonDTO>>(people));
     }
 
     public async Task<ResultService<PersonDTO>> GetByIdAsync(int id)
     {
-      var person = await _personRepository.GetByIdAsync(id);
-      if (person == null)
+        var person = await _personRepository.GetByIdAsync(id);
+        if (person == null)
         return ResultService.Fail<PersonDTO>("Pessoa não encontrada");
-      return ResultService.Ok(_mapper.Map<PersonDTO>(person));
+        return ResultService.Ok(_mapper.Map<PersonDTO>(person));
+    }
+
+    public async Task<ResultService<PagedBaseResponseDTO<PersonDTO>>> GetPagedAsync(PersonFilterDb personFilterDb)
+    {
+        var peoplePaged = await _personRepository.GetPagedAsync(personFilterDb);
+        var result = new PagedBaseResponseDTO<PersonDTO> (peoplePaged.TotalRegisters, _mapper.Map<List<PersonDTO>>(peoplePaged.Data));
+            
+        return ResultService.Ok(result);    
     }
 
     public async Task<ResultService> UpdateAsync(PersonDTO personDTO)
     {
-      if (personDTO == null)
+        if (personDTO == null)
         return ResultService.Fail("Objeto deve ser informado");
 
-      var validation = new PersonDTOValidator().Validate(personDTO);
+        var validation = new PersonDTOValidator().Validate(personDTO);
 
-      if (!validation.IsValid)
+        if (!validation.IsValid)
         return ResultService.RequestError("Problema com a validação dos campos", validation);
 
-      var person = await _personRepository.GetByIdAsync(personDTO.Id);
+        var person = await _personRepository.GetByIdAsync(personDTO.Id);
 
-      if (person == null)
+        if (person == null)
         return ResultService.Fail("Pessoa não encontrada");
 
-      //var person = _mapper.Map<Person>(personDTO); - assim fica quando vai inserir
-      person = _mapper.Map<PersonDTO, Person>(personDTO, person); //assim seria na edição - mantendo o estado da pessoa
-      await _personRepository.EditAsync(person);
+        //var person = _mapper.Map<Person>(personDTO); - assim fica quando vai inserir
+        person = _mapper.Map<PersonDTO, Person>(personDTO, person); //assim seria na edição - mantendo o estado da pessoa
+        await _personRepository.EditAsync(person);
 
-      return ResultService.Ok("Pessoa editada");
+        return ResultService.Ok("Pessoa editada");
     }
   }
 }

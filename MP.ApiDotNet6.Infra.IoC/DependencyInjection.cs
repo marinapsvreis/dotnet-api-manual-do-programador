@@ -25,6 +25,7 @@ namespace MP.ApiDotNet6.Infra.IoC
             services.AddScoped<IPersonRepository, PersonRepository>();
             services.AddScoped<IProductRepository, ProductRepository>();
             services.AddScoped<IPurchaseRepository, PurchaseRepository>();
+            services.AddScoped<IUnityOfWork, UnityOfWork>();
             return services;
         }
 
