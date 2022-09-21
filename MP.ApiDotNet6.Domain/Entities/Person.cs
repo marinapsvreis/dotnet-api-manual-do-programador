@@ -21,7 +21,7 @@ namespace MP.ApiDotNet6.Domain.Entities
             Purchases = new List<Purchase>();
         }
 
-        public Person(int id, string document, string name, string phone)
+        public Person(int id, string name, string document, string phone)
         {
             DomainValidationException.When(id < 0, "Id deve ser maior que zero.");
             Id = id;
@@ -29,7 +29,7 @@ namespace MP.ApiDotNet6.Domain.Entities
             Purchases = new List<Purchase>();
         }
 
-        private void Validation(string document, string name, string phone)
+        private void Validation(string name, string document, string phone)
         {
             DomainValidationException.When(string.IsNullOrEmpty(document), "Documento deve ser informado");
             DomainValidationException.When(string.IsNullOrEmpty(name), "Nome deve ser informado");

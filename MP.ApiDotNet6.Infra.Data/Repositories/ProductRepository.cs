@@ -44,7 +44,12 @@ namespace MP.ApiDotNet6.Infra.Data.Repositories
 
         public async Task<int> GetIdByCodErpAsync(string codErp)
         {
-            return (await _db.Products.FirstOrDefaultAsync(x => x.CodErp == codErp))?.Id ?? 0;
+            //return (await _db.People.FirstOrDefaultAsync(x => x.Document == document))?.Id ?? 0;
+            var result = await _db.Products.FirstOrDefaultAsync(x => x.CodErp == codErp);
+            if(result == null)
+                return 0;
+
+            return result.Id;
         }
 
         public async Task<ICollection<Product>> GetProductsAsync()
