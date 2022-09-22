@@ -8,6 +8,9 @@ FluentValidation
 AutoMapper
 AutoMapper.Extensions.Microsoft.DependencyInjection
 
+Microsoft.AspNetCore.Authentication.JwtBearer
+System.IdentityModel.Tokens.Jwt
+
 
 
 
