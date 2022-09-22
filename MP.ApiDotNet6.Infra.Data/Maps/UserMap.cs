@@ -20,8 +20,8 @@ namespace MP.ApiDotNet6.Infra.Data.Maps
             builder.Property(x => x.Id)
                 .HasColumnName("idusuario");
 
-            builder.Property(u => u.Email).HasColumnName("email");
-            builder.Property(u => u.Password).HasColumnName("password");
+            builder.Property(x => x.Email).HasColumnName("email");
+            builder.Property(x => x.Password).HasColumnName("senha");
         }
     }
 }

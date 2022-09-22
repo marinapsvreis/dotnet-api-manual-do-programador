@@ -44,3 +44,11 @@ C:\Users\mahpo\Documents\Programacao\CSharp\API-Manual-do-Programador\MP.ApiDotN
 C:\Users\mahpo\Documents\Programacao\CSharp\API-Manual-do-Programador\MP.ApiDotNet6\MP.ApiDotNet6.Api\obj\Debug\net6.0\MP.ApiDotNet6.Api.pdb
 C:\Users\mahpo\Documents\Programacao\CSharp\API-Manual-do-Programador\MP.ApiDotNet6\MP.ApiDotNet6.Api\obj\Debug\net6.0\MP.ApiDotNet6.Api.genruntimeconfig.cache
 C:\Users\mahpo\Documents\Programacao\CSharp\API-Manual-do-Programador\MP.ApiDotNet6\MP.ApiDotNet6.Api\obj\Debug\net6.0\ref\MP.ApiDotNet6.Api.dll
+C:\Users\mahpo\Documents\Programacao\CSharp\API-Manual-do-Programador\MP.ApiDotNet6\MP.ApiDotNet6.Api\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\mahpo\Documents\Programacao\CSharp\API-Manual-do-Programador\MP.ApiDotNet6\MP.ApiDotNet6.Api\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\mahpo\Documents\Programacao\CSharp\API-Manual-do-Programador\MP.ApiDotNet6\MP.ApiDotNet6.Api\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\mahpo\Documents\Programacao\CSharp\API-Manual-do-Programador\MP.ApiDotNet6\MP.ApiDotNet6.Api\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\mahpo\Documents\Programacao\CSharp\API-Manual-do-Programador\MP.ApiDotNet6\MP.ApiDotNet6.Api\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\mahpo\Documents\Programacao\CSharp\API-Manual-do-Programador\MP.ApiDotNet6\MP.ApiDotNet6.Api\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\mahpo\Documents\Programacao\CSharp\API-Manual-do-Programador\MP.ApiDotNet6\MP.ApiDotNet6.Api\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\mahpo\Documents\Programacao\CSharp\API-Manual-do-Programador\MP.ApiDotNet6\MP.ApiDotNet6.Api\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
